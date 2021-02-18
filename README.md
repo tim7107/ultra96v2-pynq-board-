@@ -68,13 +68,6 @@
         >2. Vivado HLS可以製作overlay,Vivado 把製作好的overlay(IP)跟板子做連結ㄓ
         >3. Vivado HLS需要選擇板子的型號:ultra96v2 board 為 xczu3eg-sbva484-1-i
         >4. Vivado 也需要選型號,但是預設可能不會有ultra96 v2 board的board file,需要自己去下載,或是跟我拿也可以
-    * 步驟
-        >1. 打開Vivado HLS設計IP,結束之後匯出檔案,打開Vivado把IP跟電路接在一起
-        >2. 最後產生的檔案會有tcl,bit 這2種
-        >3. 將tcl,bit檔案move 到board上面(路徑為\\192.168.3.1\xilinx\pynq\overlays)
-        >4. 回到jupyter 上面,測試overlay有沒有報error,下圖為import overlay python code
-        >![](https://i.imgur.com/QNxPZMI.png)
-        >5. 沒有Error產生基本上就沒問題,那個warning代表其實overlay比較完整的檔案為hwh,bit檔案,但我們是tcl,bit檔案,他說tcl,bit以後有可能會錯,但我目前沒有遇到
         
 ### ==OS操作相關==
 - <font color="#f00">**移動檔案(PC->Board 或 Board->PC)**</font>
