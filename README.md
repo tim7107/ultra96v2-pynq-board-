@@ -61,14 +61,10 @@
     ![](https://i.imgur.com/8fiZR8p.png)
 ---
 - <font color="#f00">**自己寫custom overlay**</font>
-    * 參照 https://www.youtube.com/watch?v=Dupyek4NUoI&t=14s
-    * 注意
-        >1. 需要用到Vivado HLS,Vivado 這2個軟體,我自己使用2018.3版本,可以去Xilinx官方下載(tutorial有link)
-        ![](https://i.imgur.com/ptLXPkj.png)
-        >2. Vivado HLS可以製作overlay,Vivado 把製作好的overlay(IP)跟板子做連結ㄓ
-        >3. Vivado HLS需要選擇板子的型號:ultra96v2 board 為 xczu3eg-sbva484-1-i
-        >4. Vivado 也需要選型號,但是預設可能不會有ultra96 v2 board的board file,需要自己去下載,或是跟我拿也可以
-        
+    * 基本上overlay 分成2種，一種是deep learning-based的overlay,另外一種是 非deep learning-based的overlay.
+    * 用deep learning 的話需要用Vitis AI 套件開發，非deep learning based 的話需要用Vivado、Vivado HLS開發。
+    * 參照 https://github.com/tim7107/Hardware-acceleration-on-FPGA-Ultra96-V2-/blob/main/README.md  
+
 ### ==OS操作相關==
 - <font color="#f00">**移動檔案(PC->Board 或 Board->PC)**</font>
     >0. 應該網路還有其他方法,但我紀錄我比較常用的
